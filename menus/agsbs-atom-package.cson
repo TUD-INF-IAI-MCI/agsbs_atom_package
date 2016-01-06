@@ -2,8 +2,17 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Toggle agsbs-atom-package'
-      'command': 'agsbs-atom-package:toggle'
+      'label': 'AGSBS Package'
+      'submenu': [
+        {
+          'label': 'Toggle agsbs-atom-package'
+          'command': 'agsbs-atom-package:toggle'
+        },
+        {
+          'label': 'Generate File'
+          'command': 'agsbs-atom-package:generateFile'
+        }
+      ]
     }
   ]
 'menu': [
@@ -15,6 +24,10 @@
         {
           'label': 'Toggle'
           'command': 'agsbs-atom-package:toggle'
+        },
+        {
+          'label': 'Generate File'
+          'command': 'agsbs-atom-package:generateFile'
         }
       ]
     ]

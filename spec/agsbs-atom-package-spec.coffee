@@ -51,6 +51,9 @@ describe "AgsbsAtomPackage", ->
       # activated.
       atom.commands.dispatch workspaceElement, 'agsbs-atom-package:toggle'
 
+      # generate selected file
+      atom.commands.dispatch workspaceElement, 'agsbs-atom-package:generateFile'
+
       waitsForPromise ->
         activationPromise
 
@@ -59,4 +62,5 @@ describe "AgsbsAtomPackage", ->
         agsbsAtomPackageElement = workspaceElement.querySelector('.agsbs-atom-package')
         expect(agsbsAtomPackageElement).toBeVisible()
         atom.commands.dispatch workspaceElement, 'agsbs-atom-package:toggle'
+        atom.commands.dispatch workspaceElement, 'agsbs-atom-package:generateFile'
         expect(agsbsAtomPackageElement).not.toBeVisible()

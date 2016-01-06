@@ -1,18 +1,20 @@
 {
   "name": "agsbs-atom-package",
   "main": "./lib/agsbs-atom-package",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "This package is used by AGSBS",
+  "author": "Jens Voegler",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "agsbs-atom-package:toggle"
   },
   "repository": "https://github.com/atom/agsbs-atom-package",
-  "license": "MIT",
+  "license": "LGPL",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom-script" :"3.3.0"
   }
 }
