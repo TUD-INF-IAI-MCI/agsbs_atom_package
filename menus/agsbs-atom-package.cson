@@ -19,7 +19,7 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'agsbs-atom-package'
+      'label': 'AGSBS Package'
       'submenu': [
         {
           'label': 'Toggle'

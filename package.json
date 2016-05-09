@@ -3,7 +3,7 @@
   "main": "./lib/agsbs-atom-package",
   "version": "0.1.0",
   "description": "This package is used by AGSBS",
-  "author": "Jens Voegler",
+  "author": "Leroy Buchholz, Niklas Fallik, Jens Voegler",
   "keywords": [
   ],
   "activationCommands": {
