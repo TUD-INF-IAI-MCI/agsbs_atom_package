@@ -1,6 +1,7 @@
 AgsbsAtomPackageView = require './agsbs-atom-package-view'
-{exec, execFile} = require 'child_process'
-Path = require 'path'
+MatucCommands = require './matuc-commands'
+
+
 {CompositeDisposable} = require 'atom'
 
 module.exports = AgsbsAtomPackage =
@@ -11,7 +12,8 @@ module.exports = AgsbsAtomPackage =
   activate: (state) ->
     @agsbsAtomPackageView = new AgsbsAtomPackageView(state.agsbsAtomPackageViewState)
     @modalPanel = atom.workspace.addModalPanel(item: @agsbsAtomPackageView.getElement(), visible: false)
-
+    @matucCommands = new MatucCommands()
+    
     # Events subscribed to in atom's system can be easily cleaned up with a CompositeDisposable
     @subscriptions = new CompositeDisposable
 
@@ -37,18 +39,5 @@ module.exports = AgsbsAtomPackage =
       @modalPanel.show()
 
   generateFile: ->
-    editor = atom.workspace.getActivePaneItem()
-    # save before html is generated
-    if  editor?.buffer.isModified
-      console.log 'file is modified'
-      editor?.buffer.save()
-    file = editor?.buffer.file
-
-    filepath = file?.path
-    extension = Path.extname(Path.basename(filepath))
-    if extension is '.md'
-      cmd = 'matuc conv ' +filepath
-      console.log "execute " +cmd
-      exec cmd
-    else
-      alert('Selektieren Sie eine md-Datei')
+    console.log 'GenerateFile'
+    @matucCommands.generateFile(atom.workspace.getActivePaneItem())
