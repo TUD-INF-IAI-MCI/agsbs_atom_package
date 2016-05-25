@@ -1,0 +1,39 @@
+{
+ 	"context-menu": {
+		"atom-text-editor": [
+		{
+			"label": "AGSBS Package",
+			"submenu": [
+			{
+				"label": "Toggle",
+		        "command": "agsbs-atom-package:toggle"
+			},
+			{
+				"label": "Generate File",
+				"command": "agsbs-atom-package:generateFile"
+			}
+			]
+        }
+		]
+	},
+	"menu": [
+	{
+		"label": "Packages",
+		"submenu": [
+		{
+			"label": "AGSBS Package",
+			"submenu": [
+			{
+				"label": "Toggle",
+		        "command": "agsbs-atom-package:toggle"
+			},
+			{
+				"label": "Generate File",
+				"command": "agsbs-atom-package:generateFile"
+			}
+			]
+	    }
+		]
+	}
+	]
+}
