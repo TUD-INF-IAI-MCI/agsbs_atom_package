@@ -1,20 +1,23 @@
 {
-  "name": "agsbs-atom-package",
-  "main": "./lib/agsbs-atom-package",
-  "version": "0.1.0",
-  "description": "This package is used by AGSBS",
-  "author": "Leroy Buchholz, Niklas Fallik, Jens Voegler",
-  "keywords": [
-  ],
-  "activationCommands": {
+	"name": "agsbs-atom-package",
+	"main": "./lib/agsbs-atom-package",
+	"version": "0.0.0",
+	"description": "A short description of your package",
+	"keywords": [
+
+	],
+
+	"activationCommands": {
     "atom-workspace": "agsbs-atom-package:toggle"
-  },
-  "repository": "https://github.com/atom/agsbs-atom-package",
-  "license": "LGPL",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {
-    "jquery": "^2.1.4"
-  }
+	},
+
+	"repository": "https://github.com/atom/agsbs-atom-package",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=1.0.0 <2.0.0"
+	},
+	
+	"dependencies": {
+		"jquery": "^2.1.4"
+	}
 }
