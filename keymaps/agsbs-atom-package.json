@@ -2,6 +2,7 @@
     "atom-workspace": {
         "ctrl-alt-l": "agsbs-atom-package:toggle",
         "ctrl-alt-g": "agsbs-atom-package:generateFile",
-		"ctrl-alt-n": "agsbs-atom-package:newProject"
+		"ctrl-alt-n": "agsbs-atom-package:newProject",
+		"esc"		: "agsbs-atom-package:newProject"
     }
 }
