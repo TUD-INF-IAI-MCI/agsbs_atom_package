@@ -1,0 +1,26 @@
+@import 'agsbs-atom-package';
+
+//main dialog
+.footer_panel_container {
+	width: 100%;
+
+	button, input[type="submit"] {
+		height: @button_size;
+		background-color: @background;
+		margin: @main_margin;
+		border: 0px;
+		border-radius: @border_radius;
+
+		&:hover {
+			box-shadow: 0px 0px 4px 2px @glow;
+		}
+
+		&:active {
+			box-shadow: 0px 0px 4px 1px @glow;
+		}
+	}
+
+	.close_button {
+		.font_awesome_icon;
+	}
+}
