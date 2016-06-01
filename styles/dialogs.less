@@ -1,0 +1,49 @@
+//styles for the dialogs
+@import 'agsbs-atom-package';
+
+//main dialog
+.dialog_window {
+	position: fixed !important;
+	.centered;
+    top: 0px;
+	left: 0px;
+    background: rgba(0,0,0,0);
+    width: 100%;
+    height: 100%;
+	z-index: 0;
+
+	.dialog_container {
+		position: relative;
+		z-index: 1;
+		width: 70%;
+		background-color: @background;
+		border-radius: @border_radius;
+		box-shadow: 0px 0px 150px 15px @glow;
+
+		.dialog_navigation {
+			display: flex;
+			justify-content: flex-end;
+
+			button {
+				height: @button_size;
+				width: @button_size;
+				background-color: @background;
+				background-image: url('atom://agsbs-atom-package/styles/icons/close.svg');
+				background-repeat: no-repeat;
+    			background-position: center;
+				background-size: cover;
+				margin: @main_margin;
+				border: 0px;
+				border-radius: @border_radius;
+
+				&:hover {
+					box-shadow: 0px 0px 4px 2px @glow;
+				}
+
+				&:active {
+					box-shadow: 0px 0px 4px 1px @glow;
+				}
+			}
+		}
+	}
+}
