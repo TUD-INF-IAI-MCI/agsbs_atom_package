@@ -1,5 +1,5 @@
 //styles for the dialogs
-@import 'agsbs-atom-package';
+@import 'imports';
 
 //main dialog
 .dialog_window {
@@ -21,19 +21,7 @@
 		box-shadow: 0px 0px 150px 15px @glow;
 
 		button, input[type="submit"] {
-			height: @button_size;
-			background-color: @background;
-			margin: @main_margin;
-			border: 0px;
-			border-radius: @border_radius;
-
-			&:hover {
-				box-shadow: 0px 0px 4px 2px @glow;
-			}
-
-			&:active {
-				box-shadow: 0px 0px 4px 1px @glow;
-			}
+			.buttons
 		}
 
 		.dialog_navigation {
@@ -41,10 +29,8 @@
 			justify-content: flex-end;
 
 			.fontawsome_iconed_button {
-				height: @button_size;
-				width: @button_size;
 				font-family: 'FontAwesome';
-				padding: 0px;
+				.iconed_button;
 
 				&::before {
 					position: relative;
@@ -54,8 +40,7 @@
 		}
 
 		.own_iconed_button {
-			height: @button_size;
-			width: @button_size;
+			.iconed_button;
 		}
 
 		.dialog_content {

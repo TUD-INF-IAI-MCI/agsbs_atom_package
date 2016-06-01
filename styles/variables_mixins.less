@@ -1,5 +1,6 @@
 //colors
-@background: #282c34;
+@background: #21252b; //#282c34;
+
 @glow: #9da5b4;
 
 //sizes, margins, paddings and border_radius
@@ -12,4 +13,26 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+//must be set in every panel
+.buttons {
+	height: @button_size;
+	background-color: @background;
+	margin: @main_margin;
+	border: 0px;
+	border-radius: @border_radius;
+
+	&:hover {
+		box-shadow: 0px 0px 4px 2px @glow;
+	}
+
+	&:active {
+		box-shadow: 0px 0px 4px 1px @glow;
+	}
+}
+
+.iconed_button {
+	width: @button_size;
+	padding: 0px;
 }
