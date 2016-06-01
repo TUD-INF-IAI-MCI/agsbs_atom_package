@@ -20,30 +20,30 @@
 		border-radius: @border_radius;
 		box-shadow: 0px 0px 150px 15px @glow;
 
+		button, input[type="submit"] {
+			height: @button_size;
+			width: @button_size;
+			background-color: @background;
+			//background-image: url('atom://agsbs-atom-package/styles/icons/close.svg');
+			//background-repeat: no-repeat;
+			//background-position: center;
+			//background-size: cover;
+			margin: @main_margin;
+			border: 0px;
+			border-radius: @border_radius;
+
+			&:hover {
+				box-shadow: 0px 0px 4px 2px @glow;
+			}
+
+			&:active {
+				box-shadow: 0px 0px 4px 1px @glow;
+			}
+		}
+
 		.dialog_navigation {
 			display: flex;
 			justify-content: flex-end;
-
-			button {
-				height: @button_size;
-				width: @button_size;
-				background-color: @background;
-				background-image: url('atom://agsbs-atom-package/styles/icons/close.svg');
-				background-repeat: no-repeat;
-    			background-position: center;
-				background-size: cover;
-				margin: @main_margin;
-				border: 0px;
-				border-radius: @border_radius;
-
-				&:hover {
-					box-shadow: 0px 0px 4px 2px @glow;
-				}
-
-				&:active {
-					box-shadow: 0px 0px 4px 1px @glow;
-				}
-			}
 		}
 	}
 }
