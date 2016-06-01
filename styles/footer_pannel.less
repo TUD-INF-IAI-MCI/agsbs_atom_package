@@ -20,7 +20,20 @@
 		}
 	}
 
-	.close_button {
-		.font_awesome_icon;
+	.fontawsome_iconed_button {
+		height: @button_size;
+		width: @button_size;
+		font-family: 'FontAwesome';
+		padding: 0px;
+
+		&::before {
+			position: relative;
+			top: -1px;
+		}
+	}
+
+	.own_iconed_button {
+		height: @button_size;
+		width: @button_size;
 	}
 }
