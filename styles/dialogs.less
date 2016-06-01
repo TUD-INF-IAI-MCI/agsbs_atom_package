@@ -22,12 +22,7 @@
 
 		button, input[type="submit"] {
 			height: @button_size;
-			width: @button_size;
 			background-color: @background;
-			//background-image: url('atom://agsbs-atom-package/styles/icons/close.svg');
-			//background-repeat: no-repeat;
-			//background-position: center;
-			//background-size: cover;
 			margin: @main_margin;
 			border: 0px;
 			border-radius: @border_radius;
@@ -44,6 +39,16 @@
 		.dialog_navigation {
 			display: flex;
 			justify-content: flex-end;
+
+			.close_button {
+				.font_awesome_icon;
+			}
+		}
+
+		.dialog_content {
+			margin-left: @main_margin;
+			margin-right: @main_margin;
+			margin-bottom: @main_margin;
 		}
 	}
 }
