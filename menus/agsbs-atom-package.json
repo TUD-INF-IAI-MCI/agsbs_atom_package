@@ -7,10 +7,6 @@
 			{
 				"label": "Launch",
 		        "command": "agsbs-atom-package:toggle"
-			},
-			{
-				"label": "Generate File",
-				"command": "agsbs-atom-package:generateFile"
 			}
 			]
         }
@@ -26,14 +22,6 @@
 			{
 				"label": "Launch",
 		        "command": "agsbs-atom-package:toggle"
-			},
-			{
-				"label": "Generate File",
-				"command": "agsbs-atom-package:generateFile"
-			},
-			{
-				"label": "New Project",
-				"command": "agsbs-atom-package:newProject"
 			}
 			]
 	    }
