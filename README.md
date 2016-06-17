@@ -1,6 +1,6 @@
 # agsbs-atom-package package
 
-This package is in the initial state of the development process.
+This is in the initial state of the development process.
 
 More information will be available soon.
 
