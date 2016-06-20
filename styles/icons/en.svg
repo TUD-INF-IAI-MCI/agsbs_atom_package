@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#25346C;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{fill:#010202;}
+	.st3{fill:#FFFFFF;}
+	.st4{clip-path:url(#SVGID_4_);}
+	.st5{clip-path:url(#SVGID_6_);}
+	.st6{fill:#CF172C;}
+</style>
+<g>
+	<path class="st0" d="M0,0v12.2c0,2.5,0,4.9,0,7.4c0,1.8,0,3.6,0,5.4h25V0H0z"/>
+</g>
+<g>
+	<path class="st0" d="M0,10.7c0,0.5,0,1,0,1.4V0h0v10.4C0,10.5,0,10.6,0,10.7z"/>
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="-5.9" width="37" height="25"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st1">
+		<g>
+			<path class="st2" d="M0.5,4.4c8,5.4,16,10.8,24,16.3"/>
+		</g>
+		<g>
+			<polygon class="st3" points="25,23.1 0,6.2 0,1.8 25,18.8 			"/>
+		</g>
+	</g>
+	<g class="st1">
+		<g>
+			<path class="st2" d="M24.9,4C16.7,9.5,8.5,15.2,0.2,20.9v0L24.9,4.2C24.9,4.2,24.9,4.1,24.9,4z"/>
+		</g>
+		<g>
+			<path class="st3" d="M23.9,2.6C18.8,5.9,13.7,9.5,8.7,12.9c-2.9,2-5.8,4-8.7,5.9c0,0.3,0,0.5,0,0.8c0,1.2,0,2.4,0,3.6l25-17
+				l0-4.4L23.9,2.6z"/>
+		</g>
+	</g>
+</g>
+<g>
+	<defs>
+		<path id="SVGID_3_" d="M0,4l0,8.5h25l0,7.2v1.3L0,4z M25,4.1L25,3l0,0l0-0.4L12.6,0v25L0,22.3V21L25,4.1z"/>
+	</defs>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st4">
+		<defs>
+			<rect id="SVGID_5_" x="-5.9" y="0" width="37" height="25"/>
+		</defs>
+		<clipPath id="SVGID_6_">
+			<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st5">
+			<path class="st2" d="M-2.3,2.4C6.8,8.6,16,14.8,25.2,21"/>
+			
+				<rect x="10.3" y="-4.9" transform="matrix(0.5605 -0.8281 0.8281 0.5605 -4.6934 14.6111)" class="st6" width="2.2" height="33.2"/>
+		</g>
+		<g class="st5">
+			<path class="st2" d="M0,21L0,21L25.8,3.6c0-0.1,0-0.1,0-0.2C17.3,9,8.7,15.1,0,21z"/>
+			<path class="st6" d="M25,2.7C19.8,6.1,14.5,9.8,9.3,13.3c-3,2-6,4.1-9,6.2L0,19.7c0,0.9,0,1.7,0,2.6c0.5-0.3,1-0.7,1.4-1L25,5.4
+				C25,4.5,25,3.6,25,2.7z"/>
+		</g>
+	</g>
+</g>
+<g>
+	<line class="st2" x1="12.6" y1="0" x2="12.6" y2="25"/>
+	<path class="st2" d="M0.2,12.5c8.3,0,16.6,0,24.8,0"/>
+	<path class="st3" d="M16.2,8.9V0H9v8.9H0v1.4c0,0.2,0,0.3,0,0.5c0,1.8,0,3.6,0,5.3h9v9h7.2v-9H25V8.9H16.2z"/>
+</g>
+<g>
+	<line class="st2" x1="12.6" y1="0" x2="12.6" y2="25"/>
+	<path class="st2" d="M0.2,12.5c8.3,0,16.6,0,24.8,0"/>
+	<path class="st6" d="M14.7,10.3V0h-4.3v10.3H0c0,0.1,0,0.3,0,0.4c0,1.3,0,2.6,0,3.9h10.4V25h4.3V14.7H25v-4.3H14.7z"/>
+</g>
+</svg>
