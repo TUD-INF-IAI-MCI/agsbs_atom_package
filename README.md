@@ -1,7 +1,6 @@
 # agsbs-atom-package package
 
 This is in the initial state of the development process.
-
 More information will be available soon.
 
 $$ \sum_{n=0}^{3}n=6 \\
