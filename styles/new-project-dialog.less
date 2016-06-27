@@ -1,0 +1,21 @@
+//Styles espacialy for the new project dialog.
+@import 'variables_mixins';
+
+.git_container {
+	height: 0px;
+	overflow: hidden;
+	transition: height 1s;
+	transition-timing-function: ease;
+
+	#source {
+		width: calc(~"100% - "@main_margin*2);
+	}
+
+	#git_user{
+		width: calc(~"50% - "@main_margin*2);
+	}
+
+	#git_password {
+		width: calc(~"50% - "@main_margin*2);
+	}
+}
