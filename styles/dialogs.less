@@ -77,6 +77,25 @@
 				}
 			}
 
+			select {
+				background-repeat: no-repeat;
+				background-position: right;
+
+				&:hover {
+					background-image: url(atom://agsbs-atom-package/styles/icons/arrow_select_hover.svg);
+				}
+
+				&:focus {
+					background-image: url(atom://agsbs-atom-package/styles/icons/arrow_select_active.svg);
+				}
+			}
+
+			input::-webkit-inner-spin-button {
+  				-webkit-appearance: none;
+				width: 20px;
+				cursor: pointer;
+			}
+
 			input[type = 'text'], input[type = 'number'], input[type = 'password'], select {
 				height: @button_size;
 				padding: 0px 15px;
