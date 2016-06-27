@@ -1,7 +1,24 @@
-# agsbs-atom-package package
+|| - page 1 -
 
-This is in the initial state of the development process.
-More information will be available soon.
+
+|| - page 2 -
+
+
+|| - page 3 -
+
+|| - page 4 -
+
+|| - page 5 -
+
+
+|| - page 6 -
+
+
+|| - page 7 -
+
+
+|| - page 8 -
+
 
 $$ \sum_{n=0}^{3}n=6 \\$$
 
