@@ -30,7 +30,6 @@
 
 			&::before {
 				position: relative;
-				top: -1px;
 			}
 		}
 
@@ -82,19 +81,35 @@
 				background-position: right;
 
 				&:hover {
-					background-image: url(atom://agsbs-atom-package/styles/icons/arrow_select_hover.svg);
-				}
-
-				&:focus {
-					background-image: url(atom://agsbs-atom-package/styles/icons/arrow_select_active.svg);
+					background-image: url(atom://agsbs-atom-package/styles/icons/arrow_select.svg);
 				}
 			}
 
 			input::-webkit-inner-spin-button {
+				position: relative;
+				left: 13px;
   				-webkit-appearance: none;
 				width: 20px;
 				cursor: pointer;
-			}
+
+				&::before, &::after {
+					content: '';
+					position: absolute;
+					height: 12px;
+					width: 25px;
+					background-repeat: no-repeat;
+				}
+
+				&::before {
+					background-image: url(atom://agsbs-atom-package/styles/icons/arrow_up_number_hover.svg);
+					top: 2px;
+				}
+
+					&::after {
+						background-image: url(atom://agsbs-atom-package/styles/icons/arrow_down_number_hover.svg);
+						top: 11px;
+					}
+				}
 
 			input[type = 'text'], input[type = 'number'], input[type = 'password'], select {
 				height: @button_size;
