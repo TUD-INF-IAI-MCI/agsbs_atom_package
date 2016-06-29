@@ -4,8 +4,7 @@
 .git_container {
 	height: 0px;
 	overflow: hidden;
-	transition: height 1s;
-	transition-timing-function: ease;
+	.transition;
 
 	#source {
 		width: calc(~"100% - "@main_margin*2);
@@ -17,5 +16,28 @@
 
 	#git_password {
 		width: calc(~"50% - "@main_margin*2);
+	}
+}
+
+.document_preferences_container {
+	height: 0px;
+	overflow: hidden;
+	.transition;
+
+	.input_wrapper {
+		display: inline-block;
+		width: 33%;
+	}
+
+	#chapters {
+		width: calc(~"100% - "@main_margin*2);
+	}
+
+	#appendixChapters {
+		width: calc(~"100% - "@main_margin*2);
+	}
+
+	#language {
+		width: calc(~"100% - "@main_margin*2);
 	}
 }
