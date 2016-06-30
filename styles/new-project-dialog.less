@@ -24,7 +24,7 @@
 	overflow: hidden;
 	.transition;
 
-	.input_wrapper {
+	.input_container {
 		display: inline-block;
 		width: 33%;
 	}
@@ -38,6 +38,23 @@
 	}
 
 	#language {
+		width: calc(~"100% - "@main_margin*2);
+	}
+}
+
+.table_of_contents_container {
+
+	.checkbox_container {
+		display: inline-block;
+		width: 77%;
+	}
+
+	.input_container {
+		display: inline-block;
+		width: 33%;
+	}
+
+	#depth_of_table_of_contents {
 		width: calc(~"100% - "@main_margin*2);
 	}
 }
