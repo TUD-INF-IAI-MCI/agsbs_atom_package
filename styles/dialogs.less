@@ -1,13 +1,15 @@
 //styles for the dialogs
 @import 'variables_mixins';
 
+.modal_panel_after::after{
+	visibility: visible;
+}
 //main dialog
 .dialog_window {
 	position: fixed !important;
 	.centered;
     top: 0px;
 	left: 0px;
-    background: rgba(11, 12, 14, 0.5);
     width: 100%;
     height: 100%;
 	z-index: 0;
@@ -30,7 +32,6 @@
 
 			&::before {
 				position: relative;
-				top: -1px;
 			}
 		}
 
@@ -75,7 +76,51 @@
 				&:checked {
 					background-image: url(atom://agsbs-atom-package/styles/icons/check_checked.svg);
 				}
+
+				& + label {
+					.centered;
+					margin:0px;
+				}
 			}
+
+			.checkbox_container {
+				display: flex;
+			}
+
+			select {
+				background-repeat: no-repeat;
+				background-position: right;
+
+				&:hover {
+					background-image: url(atom://agsbs-atom-package/styles/icons/arrow_select.svg);
+				}
+			}
+
+			input::-webkit-inner-spin-button {
+				position: relative;
+				left: 13px;
+  				-webkit-appearance: none;
+				width: 20px;
+				cursor: pointer;
+
+				&::before, &::after {
+					content: '';
+					position: absolute;
+					height: 12px;
+					width: 25px;
+					background-repeat: no-repeat;
+				}
+
+				&::before {
+					background-image: url(atom://agsbs-atom-package/styles/icons/arrow_up_number_hover.svg);
+					top: 2px;
+				}
+
+					&::after {
+						background-image: url(atom://agsbs-atom-package/styles/icons/arrow_down_number_hover.svg);
+						top: 11px;
+					}
+				}
 
 			input[type = 'text'], input[type = 'number'], input[type = 'password'], select {
 				height: @button_size;
@@ -83,7 +128,13 @@
 			}
 
 			::-webkit-input-placeholder {
-				color: #555555;
+				color: @greyed;
+			}
+
+			.input_container label {
+				display: block;
+				margin-bottom: 0px;
+				margin-left: @main_margin;
 			}
 
 			input[type = 'file'] {
@@ -116,6 +167,11 @@
 
 			input[type = 'submit'] {
 				.buttons;
+				margin-top: 2*@main_margin;
+				display: block;
+				float: right;
+				position: relative;
+				bottom: @main_margin;
 			}
 		}
 	}
