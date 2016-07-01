@@ -3,7 +3,6 @@
 
 .git_container {
 	height: 0px;
-	overflow: hidden;
 	.transition;
 
 	#source {
@@ -21,7 +20,6 @@
 
 .document_preferences_container {
 	height: 0px;
-	overflow: hidden;
 	.transition;
 
 	.input_container {
@@ -43,15 +41,20 @@
 }
 
 .table_of_contents_container {
+	.transition;
+	height: 0px;
 
 	.checkbox_container {
-		display: inline-block;
-		width: 67%;
+		position: relative;
+		top: -15px;
+		display: inline-flex !important;
+		width: 66%;
 	}
 
 	.input_container {
 		display: inline-block;
-		width: 33%;
+		width: 0px;
+		.transition;
 	}
 
 	#depth_of_table_of_contents {
