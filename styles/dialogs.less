@@ -1,13 +1,15 @@
 //styles for the dialogs
 @import 'variables_mixins';
 
+.modal_panel_after::after{
+	visibility: visible;
+}
 //main dialog
 .dialog_window {
 	position: fixed !important;
 	.centered;
     top: 0px;
 	left: 0px;
-    background: rgba(11, 12, 14, 0.5);
     width: 100%;
     height: 100%;
 	z-index: 0;
