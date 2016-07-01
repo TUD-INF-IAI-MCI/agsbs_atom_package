@@ -15,35 +15,13 @@
 	.dialog_container {
 		position: relative;
 		z-index: 1;
-		width: 50%;
+		width: 500px;
 		background-color: @dark_background;
 		border-radius: @border_radius;
 		box-shadow: 0px 0px 30px 10px @primary;
 
-		button, input[type = 'submit'] {
+		button {
 			.buttons
-		}
-
-		input[type = 'file'] {
-			display: none;
-		}
-
-		label[for = 'directory'] {
-			.buttons;
-			font-size: 18px;
-
-			&::before {
-				top: 4px;
-				left: 3px;
-			}
-
-			&:hover {
-				cursor: pointer;
-			}
-		}
-
-		.own_iconed_button {
-			.iconed_button;
 		}
 
 		.fontawesome_iconed_button {
@@ -62,17 +40,82 @@
 		}
 
 		.dialog_content {
+			font-size: 14px;
 			margin-left: @main_margin;
 			margin-right: @main_margin;
 			margin-bottom: @main_margin;
+
+			button {
+				.buttons;
+			}
+
+			input, select {
+				-webkit-appearance: none;
+				margin: @main_margin;
+				background: @light_background;
+				border: none;
+				border-radius: @border_radius;
+
+				&:focus {
+					box-shadow: 0px 0px 4px 2px @primary;
+				}
+			}
+
+			input[type = 'checkbox'] {
+				height: 15px;
+				width: 15px;
+				outline: none;
+				box-sizing: border-box;
+				border: 2px solid @primary;
+
+				&:hover {
+					background-image: url(atom://agsbs-atom-package/styles/icons/check_hover.svg);
+				}
+
+				&:checked {
+					background-image: url(atom://agsbs-atom-package/styles/icons/check_checked.svg);
+				}
+			}
+
+			input[type = 'text'], input[type = 'number'], input[type = 'password'], select {
+				height: @button_size;
+				padding: 0px 15px;
+			}
+
+			::-webkit-input-placeholder {
+				color: #555555;
+			}
+
+			input[type = 'file'] {
+				display: none;
+			}
+
+			label[for = 'directory'] {
+				.buttons;
+				font-size: 18px;
+
+				&::before {
+					top: 4px;
+					left: 3px;
+				}
+
+				&:hover {
+					cursor: pointer;
+				}
+			}
 
 			.file_input {
 				display: flex;
 
 				output {
-					padding-top: 0px;
+					.centered;
+					padding: 0px;
 					margin: @main_margin 0px;
 				}
+			}
+
+			input[type = 'submit'] {
+				.buttons;
 			}
 		}
 	}
