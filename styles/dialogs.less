@@ -126,7 +126,7 @@
 			}
 
 			::-webkit-input-placeholder {
-				color: #555555;
+				color: @greyed;
 			}
 
 			.input_container label {
@@ -165,8 +165,11 @@
 
 			input[type = 'submit'] {
 				.buttons;
+				margin-top: 2*@main_margin;
 				display: block;
-    			float: right;
+				float: right;
+				position: relative;
+				bottom: @main_margin;
 			}
 		}
 	}
