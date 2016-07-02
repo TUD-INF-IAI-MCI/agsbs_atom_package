@@ -6,7 +6,7 @@
 
 .input_container {
 	display: inline-block;
-	width: 161.328px; //33.333333% from 500px
+	width: @dialog_content_width/3;
 }
 
 #rows {
@@ -15,6 +15,10 @@
 
 #columbs {
 	width: calc(~"100% - "@main_margin*2);
+}
+
+.table_container {
+	margin: @main_margin 0px;
 }
 
 //tabellenspalten min width 161.328px
