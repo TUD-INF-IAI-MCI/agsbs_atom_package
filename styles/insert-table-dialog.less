@@ -20,8 +20,13 @@
 .table_container {
 	margin: @main_margin 0px;
 
+	.head_container {
+		border-bottom: 1px solid @light_background;
+	}
+
 	input[type = 'text'] {
 		width: 0px;
+		padding: 0px !important;
 		.transition;
 	}
 }
