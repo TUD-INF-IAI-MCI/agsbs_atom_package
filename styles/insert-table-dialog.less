@@ -1,7 +1,7 @@
 @import 'variables_mixins';
 
 .numberpicker_container {
-	display: flex;
+	.centered;
 }
 
 .input_container {
@@ -19,6 +19,9 @@
 
 .table_container {
 	margin: @main_margin 0px;
-}
 
-//tabellenspalten min width 161.328px
+	input[type = 'text'] {
+		width: 0px;
+		.transition;
+	}
+}
