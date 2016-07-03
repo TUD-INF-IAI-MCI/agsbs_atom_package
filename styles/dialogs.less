@@ -18,7 +18,7 @@
 		position: relative;
 		z-index: 1;
 		min-width: @dialog_width;
-		width: @dialog_width;
+		//width: @dialog_width;
 		background-color: @dark_background;
 		border-radius: @border_radius;
 		box-shadow: 0px 0px 30px 10px @primary;
@@ -44,6 +44,7 @@
 
 		.dialog_content {
 			font-size: 14px;
+			min-width: calc(@dialog_width - 2*@main_margin);
 			margin-left: @main_margin;
 			margin-right: @main_margin;
 			margin-bottom: @main_margin;
