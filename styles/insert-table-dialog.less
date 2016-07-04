@@ -1,0 +1,31 @@
+@import 'variables_mixins';
+
+.numberpicker_container {
+	.centered;
+}
+
+.input_container {
+	display: inline-block;
+	width: @dialog_content_width/3;
+}
+
+#rows {
+	width: calc(~"100% - "@main_margin*2);
+}
+
+#columns {
+	width: calc(~"100% - "@main_margin*2);
+}
+
+.table_container {
+	margin: @main_margin 0px;
+
+	.head_container {
+		border-bottom: 1px solid @light_background;
+	}
+
+	input[type = 'text'] {
+		width: 0px;
+		.transition;
+	}
+}

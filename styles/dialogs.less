@@ -17,10 +17,12 @@
 	.dialog_container {
 		position: relative;
 		z-index: 1;
-		width: 500px;
+		min-width: @dialog_width;
+		//width: @dialog_width;
 		background-color: @dark_background;
 		border-radius: @border_radius;
 		box-shadow: 0px 0px 30px 10px @primary;
+		.transition;
 
 		button {
 			.buttons
@@ -42,6 +44,7 @@
 
 		.dialog_content {
 			font-size: 14px;
+			min-width: calc(@dialog_width - 2*@main_margin);
 			margin-left: @main_margin;
 			margin-right: @main_margin;
 			margin-bottom: @main_margin;
@@ -124,7 +127,8 @@
 
 			input[type = 'text'], input[type = 'number'], input[type = 'password'], select {
 				height: @button_size;
-				padding: 0px 15px;
+				padding-left: 15px;
+				padding-right: 15px;
 			}
 
 			::-webkit-input-placeholder {
