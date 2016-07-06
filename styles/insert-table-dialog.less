@@ -9,11 +9,11 @@
 	width: @dialog_content_width/3;
 }
 
-#rows {
+#row_picker {
 	width: calc(~"100% - "@main_margin*2);
 }
 
-#columns {
+#column_picker {
 	width: calc(~"100% - "@main_margin*2);
 }
 
@@ -21,7 +21,9 @@
 	margin: @main_margin 0px;
 
 	.head_container {
+		//height: 0px;
 		border-bottom: 1px solid @light_background;
+		.transition;
 	}
 
 	input[type = 'text'] {
@@ -30,7 +32,8 @@
 	}
 
 	.row {
-		height: 0px;
+		//height: 0px;
+		margin: 0px;
 		.transition;
 	}
 }
