@@ -52,7 +52,7 @@
 				.buttons;
 			}
 
-			input, select {
+			input, select, textarea {
 				-webkit-appearance: none;
 				margin: @main_margin;
 				background: @light_background;
@@ -138,6 +138,12 @@
 				display: block;
 				margin-bottom: 0px;
 				margin-left: @main_margin;
+			}
+
+			textarea {
+				resize: none;
+				height: @button_size;
+				.transition;
 			}
 
 			input[type = 'file'] {
