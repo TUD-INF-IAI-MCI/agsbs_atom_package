@@ -18,7 +18,6 @@
 		position: relative;
 		z-index: 1;
 		min-width: @dialog_width;
-		//width: @dialog_width;
 		background-color: @dark_background;
 		border-radius: @border_radius;
 		box-shadow: 0px 0px 30px 10px @primary;
@@ -53,7 +52,7 @@
 				.buttons;
 			}
 
-			input, select {
+			input, select, textarea {
 				-webkit-appearance: none;
 				margin: @main_margin;
 				background: @light_background;
@@ -100,9 +99,9 @@
 			}
 
 			input::-webkit-inner-spin-button {
+				-webkit-appearance: none;
 				position: relative;
 				left: 13px;
-  				-webkit-appearance: none;
 				width: 20px;
 				cursor: pointer;
 
@@ -141,11 +140,17 @@
 				margin-left: @main_margin;
 			}
 
+			textarea {
+				resize: none;
+				height: @button_size;
+				.transition;
+			}
+
 			input[type = 'file'] {
 				display: none;
 			}
 
-			label[for = 'directory'] {
+			label[name = 'filepicker'] {
 				.buttons;
 				font-size: 18px;
 

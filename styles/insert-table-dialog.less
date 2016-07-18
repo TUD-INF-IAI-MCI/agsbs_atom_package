@@ -1,5 +1,9 @@
 @import 'variables_mixins';
 
+.table_head_checkbox_container {
+	.centered;
+}
+
 .numberpicker_container {
 	.centered;
 }
@@ -19,6 +23,8 @@
 
 .table_container {
 	margin: @main_margin 0px;
+	max-height: 100%;
+	overflow: overlay;
 
 	.head_container {
 		border-bottom: 1px solid @light_background;
@@ -30,6 +36,7 @@
 	}
 
 	.row {
+		display: flex;
 		margin: 0px;
 		.transition;
 	}
