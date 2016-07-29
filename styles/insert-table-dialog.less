@@ -1,0 +1,43 @@
+@import 'variables_mixins';
+
+.table_head_checkbox_container {
+	.centered;
+}
+
+.numberpicker_container {
+	.centered;
+}
+
+.input_container {
+	display: inline-block;
+	width: @dialog_content_width/3;
+}
+
+#row_picker {
+	width: calc(~"100% - "@main_margin*2);
+}
+
+#column_picker {
+	width: calc(~"100% - "@main_margin*2);
+}
+
+.table_container {
+	margin: @main_margin 0px;
+	max-height: 100%;
+	overflow: overlay;
+
+	.head_container {
+		border-bottom: 1px solid @light_background;
+		.transition;
+	}
+
+	input[type = 'text'] {
+		.transition;
+	}
+
+	.row {
+		display: flex;
+		margin: 0px;
+		.transition;
+	}
+}

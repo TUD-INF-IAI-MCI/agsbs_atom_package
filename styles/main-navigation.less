@@ -3,9 +3,32 @@
 .main_navigation_container {
 	width: 100%;
 	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid @border;
+	border-left: 1px solid @border;
+
+	.tools {
+		display: flex;
+	}
+
+	.languages {
+		display: flex;
+	}
 
 	button {
 		.buttons;
+
+		//for language switch
+		&.active {
+			&:hover {
+				box-shadow: none;
+				cursor: default;
+			}
+
+			&:active {
+				box-shadow: none;
+			}
+		}
 	}
 
 	.fontawesome_iconed_button {
@@ -14,7 +37,8 @@
 
 		&::before {
 			position: relative;
-			top: -1px;
+			font-size: 18px;
+			top: -3px;
 		}
 	}
 

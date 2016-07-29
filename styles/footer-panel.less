@@ -4,6 +4,9 @@
 .footer_panel_container {
 	width: 100%;
 	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid @border;
+	border-left: 1px solid @border;
 
 	button {
 		.buttons;
@@ -15,15 +18,12 @@
 
 		&::before {
 			position: relative;
-			top: -1px;
+			font-size: 18px;
+			top: -2px;
 		}
 	}
 
 	.own_iconed_button {
 		.iconed_button;
-	}
-
-	#blockqoute::before {
-		font-size: 18px;
 	}
 }

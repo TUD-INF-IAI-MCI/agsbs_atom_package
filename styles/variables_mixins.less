@@ -1,9 +1,13 @@
 //colors
-@background: #21252b; //#282c34;
-
-@glow: #9da5b4;
+@dark_background: #21252b;
+@light_background: #282c34;
+@primary: #9da5b4;
+@greyed: #555555;
+@border: #17191e;
 
 //sizes, margins, paddings and border_radius
+@dialog_width: 500px;
+@dialog_content_width: 500px - 2*@main_margin;
 @button_size: 25px;
 @main_margin: 8px;
 @border_radius: 3px;
@@ -18,21 +22,28 @@
 //must be set in every panel
 .buttons {
 	height: @button_size;
-	background-color: @background;
+	background-color: @dark_background;
 	margin: @main_margin;
 	border: 0px;
 	border-radius: @border_radius;
 
 	&:hover {
-		box-shadow: 0px 0px 4px 2px @glow;
+		box-shadow: 0px 0px 4px 2px @primary;
 	}
 
 	&:active {
-		box-shadow: 0px 0px 4px 1px @glow;
+		box-shadow: 0px 0px 4px 1px @primary;
 	}
 }
 
 .iconed_button {
 	width: @button_size;
 	padding: 0px;
+}
+
+.transition {
+	transition-property: all;
+    transition-duration: 1s;
+	transition-timing-function: ease;
+	overflow: hidden;
 }
