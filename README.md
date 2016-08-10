@@ -27,8 +27,8 @@
 
 
 <!-- BEGIN OF TABLE -->
-| |
-| ----- |
+<!-- | |
+| ----- | -->
 | mann <br><li> fuck </li><li> shit </li><li> dicks </li><li> sucken </li></ul>|
 
 <!-- END OF TABLE -->
