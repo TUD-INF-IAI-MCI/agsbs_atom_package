@@ -98,32 +98,42 @@
 				}
 			}
 
+			.number_input_container {
+				position: relative;
+
+				.arrow_up, .arrow_down {
+					content: '';
+					position: absolute;
+					right: 10px;
+					height: 12px;
+					width: 25px;
+					background-repeat: no-repeat;
+				}
+
+				.arrow_up {
+					background-image: url(atom://agsbs-atom-package/styles/icons/arrow_up_number_hover.svg);
+					bottom: 20px;
+
+					&:hover {
+						background-image: url(atom://agsbs-atom-package/styles/icons/arrow_up_number_active.svg);
+						cursor: pointer;
+					}
+				}
+
+				.arrow_down {
+					background-image: url(atom://agsbs-atom-package/styles/icons/arrow_down_number_hover.svg);
+					bottom: 8px;
+
+					&:hover {
+						background-image: url(atom://agsbs-atom-package/styles/icons/arrow_down_number_active.svg);
+						cursor: pointer;
+					}
+				}
+			}
+
 			input::-webkit-inner-spin-button {
 				-webkit-appearance: none;
-//				position: relative;
-//				//left: 13px;
-//				width: 20px;
-//				cursor: pointer;
-//				background: red;
-//
-//				&::before, &::after {
-//					content: '';
-//					position: absolute;
-//					height: 12px;
-//					width: 25px;
-//					background-repeat: no-repeat;
-//				}
-//
-//				&::before {
-//					background-image: url(atom://agsbs-atom-package/styles/icons/arrow_up_number_hover.svg);
-//					top: 2px;
-//				}
-//
-//					&::after {
-//						background-image: url(atom://agsbs-atom-package/styles/icons/arrow_down_number_hover.svg);
-//						top: 11px;
-//					}
-				}
+			}
 
 			input[type = 'text'], input[type = 'number'], input[type = 'password'], select, textarea {
 				height: @button_size;
