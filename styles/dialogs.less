@@ -98,33 +98,44 @@
 				}
 			}
 
-			input::-webkit-inner-spin-button {
-				-webkit-appearance: none;
+			.number_input_container {
 				position: relative;
-				left: 13px;
-				width: 20px;
-				cursor: pointer;
 
-				&::before, &::after {
+				.arrow_up, .arrow_down {
 					content: '';
 					position: absolute;
+					right: 10px;
 					height: 12px;
 					width: 25px;
 					background-repeat: no-repeat;
 				}
 
-				&::before {
+				.arrow_up {
 					background-image: url(atom://agsbs-atom-package/styles/icons/arrow_up_number_hover.svg);
-					top: 2px;
-				}
+					bottom: 20px;
 
-					&::after {
-						background-image: url(atom://agsbs-atom-package/styles/icons/arrow_down_number_hover.svg);
-						top: 11px;
+					&:hover {
+						background-image: url(atom://agsbs-atom-package/styles/icons/arrow_up_number_active.svg);
+						cursor: pointer;
 					}
 				}
 
-			input[type = 'text'], input[type = 'number'], input[type = 'password'], select {
+				.arrow_down {
+					background-image: url(atom://agsbs-atom-package/styles/icons/arrow_down_number_hover.svg);
+					bottom: 8px;
+
+					&:hover {
+						background-image: url(atom://agsbs-atom-package/styles/icons/arrow_down_number_active.svg);
+						cursor: pointer;
+					}
+				}
+			}
+
+			input::-webkit-inner-spin-button {
+				-webkit-appearance: none;
+			}
+
+			input[type = 'text'], input[type = 'number'], input[type = 'password'], select, textarea {
 				height: @button_size;
 				padding-left: 15px;
 				padding-right: 15px;

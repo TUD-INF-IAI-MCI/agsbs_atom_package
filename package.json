@@ -18,6 +18,11 @@
 	},
 
 	"dependencies": {
-		"jquery": "^2.1.4"
+		"jquery": "^2.1.4",
+		"atom-package-dependencies" : "latest"
+	},
+
+	"package-dependencies": {
+		"markdown-preview-plus": ""
 	}
 }
