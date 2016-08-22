@@ -38,7 +38,15 @@
 
 		.dialog_navigation {
 			display: flex;
-			justify-content: flex-end;
+			justify-content: space-between;
+
+			.dialog_headline {
+				display: flex;
+				align-items: center;
+				margin-left: 2*@main_margin;
+				font-size: 18px;
+    			font-weight: bold;
+			}
 		}
 
 		.dialog_content {
@@ -104,7 +112,7 @@
 				.arrow_up, .arrow_down {
 					content: '';
 					position: absolute;
-					right: 10px;
+					right: 5px;
 					height: 12px;
 					width: 25px;
 					background-repeat: no-repeat;
