@@ -1,0 +1,26 @@
+@import 'variables_mixins';
+
+.save_commit_message_container {
+	height: 0px;
+	.transition;
+}
+#save_dialog_commit_message {
+	width: calc(~"100% - "@main_margin*2);
+}
+
+.save_buttons {
+	display: flex;
+	justify-content: space-around;
+	.transition;
+
+	#yesButton {
+		.transition;
+	}
+}
+
+.save_commit_button_container {
+	display: flex;
+	justify-content: flex-end;
+	height: 0px;
+	.transition;
+}
