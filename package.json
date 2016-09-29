@@ -1,7 +1,7 @@
 {
 	"name": "agsbs-atom-package",
 	"main": "./lib/agsbs-atom-package",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "A short description of your package",
 	"keywords": [
 
@@ -18,6 +18,12 @@
 	},
 
 	"dependencies": {
-		"jquery": "^2.1.4"
+		"jquery": "^2.1.4",
+		"atom-package-dependencies" : "latest"
+	},
+
+	"package-dependencies": {
+		"markdown-preview-plus": "",
+		"keyboard-localization": "1.4.18"
 	}
 }

@@ -1,0 +1,84 @@
+//Styles espacialy for the new project dialog.
+@import 'variables_mixins';
+
+.git_container {
+	height: 0px;
+	.transition;
+
+	#source {
+		width: calc(~"100% - "@main_margin*2);
+	}
+
+	#git_user{
+		width: calc(~"50% - "@main_margin*2);
+	}
+
+	#git_password {
+		width: calc(~"50% - "@main_margin*2);
+	}
+}
+
+.document_preferences_container {
+	height: 0px;
+	.transition;
+
+	.input_container {
+		display: inline-block;
+		width: 33.333333%;
+	}
+
+	#chapters {
+		width: calc(~"100% - "@main_margin*2);
+	}
+
+	#appendix_chapters {
+		width: calc(~"100% - "@main_margin*2);
+	}
+
+	#language {
+		width: calc(~"100% - "@main_margin*2);
+	}
+}
+
+.table_of_contents_container {
+	.transition;
+	height: 0px;
+
+	.checkbox_container {
+		position: relative;
+		top: -15px;
+		display: inline-flex !important;
+		width: 66.777777%;
+	}
+
+	.input_container {
+		display: inline-block;
+		width: 0px;
+		.transition;
+	}
+
+	#depth_of_table_of_contents {
+		width: calc(~"100% - "@main_margin*2);
+	}
+}
+
+.document_metadata_container {
+	height: 0px;
+	.transition;
+
+	#title {
+		width: calc(~"100% - "@main_margin*2);
+	}
+
+	#author{
+		width: calc(~"50% - "@main_margin*2);
+	}
+
+	#institution {
+		width: calc(~"50% - "@main_margin*2);
+	}
+
+	#material_source {
+		width: calc(~"100% - "@main_margin*2);
+	}
+}

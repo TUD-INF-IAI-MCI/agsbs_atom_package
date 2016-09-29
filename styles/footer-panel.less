@@ -4,8 +4,22 @@
 .footer_panel_container {
 	width: 100%;
 	display: flex;
+	flex-wrap: wrap;
 	border-bottom: 1px solid @border;
 	border-left: 1px solid @border;
+
+	fieldset {
+		.fieldset;
+	display: flex;
+
+		.flex_container {
+			display: flex;
+		}
+	}
+
+	legend {
+		.legend;
+	}
 
 	button {
 		.buttons;
@@ -24,5 +38,19 @@
 
 	.own_iconed_button {
 		.iconed_button;
+	}
+
+	#headlines {
+		position: relative;
+		top: 11px;
+	}
+
+	#Headline {
+		width: 0px;
+		.transition;
+
+		legend {
+			width: 0px;
+		}
 	}
 }

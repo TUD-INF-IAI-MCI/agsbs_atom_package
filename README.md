@@ -1,8 +1,11 @@
-# agsbs-atom-package package
+# What is AGSBS?
 
-This is in the initial state of the development process.
-More information will be available soon.
+AGSBS (Arbeitsgruppe Studium für Blinde und Sehbehinderte eng. working group for blind and visually impaired Students) is a working group of TU Dresden (germany). AGSBS works on (automatically) transcribing study material to offer it to the blind an visually impaired students.
 
-$$ \sum_{n=0}^{3}n=6 \\$$
+# What does this package?
 
-![A screen__shot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+It is a GUI toolkit which helps to transcribe study material to markdown which fulfill the AGSBS guidelines.
+
+# Installation [![Bildbeschreibung ausgelagert](asdfasdf)](images.html#fdsafasdf) [![Bildbeschreibung ausgelagert](asdf)](images.html#fdsa)
+
+dd [![Bildbeschreibung ausgelagert](ddd)](images.html#ddd)

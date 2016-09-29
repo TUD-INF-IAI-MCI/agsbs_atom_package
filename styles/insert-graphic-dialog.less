@@ -1,0 +1,22 @@
+@import 'variables_mixins';
+
+.insert_graphic_form {
+	width: @dialog_width - @main_margin*2;
+
+	#alt_text {
+		width: calc(~"100% - "@main_margin*2);
+	}
+
+	p {
+		margin-bottom: @main_margin;
+		margin-left: @main_margin;
+	}
+
+	#uri {
+		width: calc(~"100% - "@main_margin*2);
+	}
+
+	#graphic_title {
+		width: calc(~"100% - "@main_margin*2);
+	}
+}

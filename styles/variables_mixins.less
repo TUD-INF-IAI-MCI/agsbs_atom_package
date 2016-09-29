@@ -2,9 +2,12 @@
 @dark_background: #21252b;
 @light_background: #282c34;
 @primary: #9da5b4;
+@greyed: #555555;
 @border: #17191e;
 
 //sizes, margins, paddings and border_radius
+@dialog_width: 500px;
+@dialog_content_width: 500px - 2*@main_margin;
 @button_size: 25px;
 @main_margin: 8px;
 @border_radius: 3px;
@@ -20,6 +23,7 @@
 .buttons {
 	height: @button_size;
 	background-color: @dark_background;
+	background-repeat: no-repeat;
 	margin: @main_margin;
 	border: 0px;
 	border-radius: @border_radius;
@@ -36,4 +40,31 @@
 .iconed_button {
 	width: @button_size;
 	padding: 0px;
+}
+
+.transition {
+	transition-property: all;
+    transition-duration: 1s;
+	transition-timing-function: ease;
+	overflow: hidden;
+}
+
+.fieldset {
+	border-top: 1px solid  @primary;
+	margin-top: 0.25*@main_margin;
+	margin-right: 0.25*@main_margin;
+	margin-left: 0.25*@main_margin;
+
+	button {
+		margin: 0px @main_margin 0.25*@main_margin @main_margin;
+	}
+}
+
+.legend {
+	width: auto;
+	margin: 0 auto;
+	margin-bottom: 0.25*@main_margin;
+	color: @primary;
+	font-size: 11px;
+	border: 0;
 }
