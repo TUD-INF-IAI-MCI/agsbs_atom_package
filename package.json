@@ -1,7 +1,7 @@
 {
   "name": "agsbs-atom-package",
   "main": "./lib/agsbs-atom-package",
-  "version": "0.12.0",
+  "version": "0.9.0",
   "description": "Beta-Version",
   "keywords": [],
   "activationCommands": {
