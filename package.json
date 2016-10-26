@@ -1,6 +1,7 @@
 {
 	"name": "agsbs-atom-package",
 	"main": "./lib/agsbs-atom-package",
+	"repository": "https://github.com/TUD-INF-IAI-MCI/agsbs_atom_package",
 	"version": "0.1.0",
 	"description": "A short description of your package",
 	"keywords": [
