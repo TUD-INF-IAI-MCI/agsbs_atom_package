@@ -1,29 +1,23 @@
 {
-	"name": "agsbs-atom-package",
-	"main": "./lib/agsbs-atom-package",
-	"version": "1.0.0",
-	"description": "Beta-Version",
-	"keywords": [
-
-	],
-
-	"activationCommands": {
+  "name": "agsbs-atom-package",
+  "main": "./lib/agsbs-atom-package",
+  "version": "2.0.0",
+  "description": "Beta-Version",
+  "keywords": [],
+  "activationCommands": {
     "atom-workspace": "agsbs-atom-package:toggle"
-	},
-
-	"repository": "https://github.com/TUD-INF-IAI-MCI/agsbs_atom_package",
-	"license": "MIT",
-	"engines": {
-		"atom": ">=1.0.0 <2.0.0"
-	},
-
-	"dependencies": {
-		"jquery": "^2.1.4",
-		"atom-package-dependencies" : "latest"
-	},
-
-	"package-dependencies": {
-		"markdown-preview-plus": "",
-		"keyboard-localization": "1.4.18"
-	}
+  },
+  "repository": "https://github.com/TUD-INF-IAI-MCI/agsbs_atom_package",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "atom-package-dependencies": "latest"
+  },
+  "package-dependencies": {
+    "markdown-preview-plus": "",
+    "keyboard-localization": "1.4.18"
+  }
 }
