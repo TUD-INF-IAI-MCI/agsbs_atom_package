@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metadata xmlns:MAGSBS="http://elvis.inf.tu-dresden.de" xmlns:dc="http://purl.org/dc/elements/1.1">
+  <dc:language>de</dc:language>
+  <dc:rights>Access limited to members</dc:rights>
+  <dc:date>WS 2016/2017</dc:date>
+  <MAGSBS:sourceAuthor>Voegler</MAGSBS:sourceAuthor>
+  <MAGSBS:tocDepth>2</MAGSBS:tocDepth>
+  <dc:source>ELVIS</dc:source>
+  <MAGSBS:appendixPrefix>1</MAGSBS:appendixPrefix>
   <MAGSBS:pageNumberingGap>5</MAGSBS:pageNumberingGap>
   <dc:publisher>TU Dresden</dc:publisher>
-  <MAGSBS:appendixPrefix>0</MAGSBS:appendixPrefix>
-  <MAGSBS:tocDepth>2</MAGSBS:tocDepth>
-  <dc:date>WS 2016/2017</dc:date>
-  <dc:language>de</dc:language>
-  <dc:title>AGSBS Atom Package Prsentation</dc:title>
-  <dc:contributor>AG SBS</dc:contributor>
-  <dc:source>ELVIS</dc:source>
-  <dc:format>html</dc:format>
-  <dc:creator>Leroy</dc:creator>
   <MAGSBS:generateToc>1</MAGSBS:generateToc>
-  <MAGSBS:sourceAuthor>Niklas</MAGSBS:sourceAuthor>
-  <dc:rights>Access limited to members</dc:rights>
+  <dc:format>html</dc:format>
+  <dc:contributor>AG SBS</dc:contributor>
+  <dc:title>AGSBS Atom Package Prsentation</dc:title>
+  <dc:creator>Leroy</dc:creator>
   <MAGSBS:version>0.5</MAGSBS:version>
 </metadata>
