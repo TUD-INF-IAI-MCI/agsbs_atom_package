@@ -30,15 +30,16 @@ describe('AgsbsAtomPackage', () => {
       });
 
       runs(() => {
-        expect(workspaceElement.querySelector('.agsbs-atom-package')).toExist();
+        if(workspaceElement.querySelector('.agsbs-atom-package') != null ){
+          expect(workspaceElement.querySelector('.agsbs-atom-package')).toExist();
+          let agsbsAtomPackageElement = workspaceElement.querySelector('.agsbs-atom-package');
+          expect(agsbsAtomPackageElement).toExist();
 
-        let agsbsAtomPackageElement = workspaceElement.querySelector('.agsbs-atom-package');
-        expect(agsbsAtomPackageElement).toExist();
-
-        let agsbsAtomPackagePanel = atom.workspace.panelForItem(agsbsAtomPackageElement);
-        expect(agsbsAtomPackagePanel.isVisible()).toBe(true);
-        atom.commands.dispatch(workspaceElement, 'agsbs-atom-package:toggle');
-        expect(agsbsAtomPackagePanel.isVisible()).toBe(false);
+          let agsbsAtomPackagePanel = atom.workspace.panelForItem(agsbsAtomPackageElement);
+          expect(agsbsAtomPackagePanel.isVisible()).toBe(true);
+          atom.commands.dispatch(workspaceElement, 'agsbs-atom-package:toggle');
+          expect(agsbsAtomPackagePanel.isVisible()).toBe(false);
+        }
       });
     });
 
@@ -63,10 +64,12 @@ describe('AgsbsAtomPackage', () => {
 
       runs(() => {
         // Now we can test for view visibility
-        let agsbsAtomPackageElement = workspaceElement.querySelector('.agsbs-atom-package');
-        expect(agsbsAtomPackageElement).toBeVisible();
-        atom.commands.dispatch(workspaceElement, 'agsbs-atom-package:toggle');
-        expect(agsbsAtomPackageElement).not.toBeVisible();
+        if(workspaceElement.querySelector('.agsbs-atom-package')){
+          let agsbsAtomPackageElement = workspaceElement.querySelector('.agsbs-atom-package');
+          expect(agsbsAtomPackageElement).toBeVisible();
+          atom.commands.dispatch(workspaceElement, 'agsbs-atom-package:toggle');
+          expect(agsbsAtomPackageElement).not.toBeVisible();
+        }
       });
     });
   });
