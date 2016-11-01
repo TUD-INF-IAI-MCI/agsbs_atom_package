@@ -1,7 +1,6 @@
-# AGSBS Atom Package
-[![Build status](https://travis-ci.org/TUD-INF-IAI-MCI/agsbs_atom_package.svg?branch=master)](https://travis-ci.org/TUD-INF-IAI-MCI/agsbs_atom_package?branch=master)
+# AGSBS Atom Package [![Build status](https://travis-ci.org/TUD-INF-IAI-MCI/agsbs_atom_package.svg?branch=master)](https://travis-ci.org/TUD-INF-IAI-MCI/agsbs_atom_package?branch=master)
 
-This package is developed to make the transcription process more effective. 
+This package is developed to make the transcription process more effective.
 
 ## What is AGSBS?
 
