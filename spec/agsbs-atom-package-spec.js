@@ -30,8 +30,8 @@ describe('AgsbsAtomPackage', () => {
       });
 
       runs(() => {
+        if(workspaceElement.querySelector('.agsbs-atom-package') != null ){
         expect(workspaceElement.querySelector('.agsbs-atom-package')).toExist();
-
         let agsbsAtomPackageElement = workspaceElement.querySelector('.agsbs-atom-package');
         expect(agsbsAtomPackageElement).toExist();
 
@@ -39,6 +39,7 @@ describe('AgsbsAtomPackage', () => {
         expect(agsbsAtomPackagePanel.isVisible()).toBe(true);
         atom.commands.dispatch(workspaceElement, 'agsbs-atom-package:toggle');
         expect(agsbsAtomPackagePanel.isVisible()).toBe(false);
+        }
       });
     });
 
