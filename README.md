@@ -1,4 +1,9 @@
-# What is AGSBS?
+# AGSBS Atom Package
+[![Build status](https://travis-ci.org/TUD-INF-IAI-MCI/agsbs_atom_package.svg?branch=master)]
+
+This package is developed to make the transcription process more effective. 
+
+## What is AGSBS?
 
 AGSBS (Arbeitsgruppe Studium für Blinde und Sehbehinderte eng. working group for blind and visually impaired Students) is a working group of TU Dresden (germany). AGSBS works on (automatically) transcribing study material to offer it to the blind an visually impaired students.
 
