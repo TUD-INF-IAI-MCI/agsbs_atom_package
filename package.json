@@ -2,7 +2,7 @@
   "name": "agsbs-atom-package",
   "main": "./lib/agsbs-atom-package",
   "version": "0.11.0",
-  "description": "Beta-Version",
+  "description": "Beta-Version! This package is developed to make the transcription process more effective.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "agsbs-atom-package:toggle"
