@@ -1,6 +1,19 @@
-# AGSBS Atom Package [![Build status](https://travis-ci.org/TUD-INF-IAI-MCI/agsbs_atom_package.svg?branch=master)](https://travis-ci.org/TUD-INF-IAI-MCI/agsbs_atom_package?branch=master)
+# AGSBS Atom Package
+[![Build status](https://travis-ci.org/TUD-INF-IAI-MCI/agsbs_atom_package.svg?branch=master)](https://travis-ci.org/TUD-INF-IAI-MCI/agsbs_atom_package?branch=master)
 
 This package is developed to make the transcription process more effective.
+At the moment the package is available as a Beta Version for testing.
+There are a few open issues, please check [Open Issues]https://github.com/TUD-INF-IAI-MCI/agsbs_atom_package/issues.
+
+If you found a new issue. Describe how it occurs:
+
+- Which view was opened?
+- Did you use a shortcut oder a icon?
+- Was a error message shown?
+
+Also an screenshot is very helpful.
+
+
 
 ## What is AGSBS?
 
