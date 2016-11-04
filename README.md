@@ -3,7 +3,7 @@
 
 This package is developed to make the transcription process more effective.
 At the moment the package is available as a Beta Version for testing.
-There are a few open issues, please check [Open Issues]https://github.com/TUD-INF-IAI-MCI/agsbs_atom_package/issues.
+There are a few open issues, please check [Open Issues](https://github.com/TUD-INF-IAI-MCI/agsbs_atom_package/issues).
 
 If you found a new issue. Describe how it occurs:
 
