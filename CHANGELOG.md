@@ -8,3 +8,7 @@
     - empty link text is now allowed
     - if link text is empty the url is used
     - check if url starts with https://, http://
+- test if a md-file is selected for:
+  - insert table
+  - edit project/metadata  
+  - insert image
