@@ -8,7 +8,7 @@ There are a few open issues, please check [Open Issues](https://github.com/TUD-I
 If you found a new issue. Describe how it occurs:
 
 - Which view was opened?
-- Did you use a shortcut oder a icon?
+- Did you use a shortcut or a icon?
 - Was a error message shown?
 
 Also an screenshot is very helpful.
