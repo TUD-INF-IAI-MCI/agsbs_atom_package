@@ -14,10 +14,10 @@
   },
   "dependencies": {
     "jquery": "^2.1.4",
-    "atom-package-dependencies": "latest"
+    "atom-package-dependencies": "latest",
+    "iconv": "2.2.1"
   },
   "package-dependencies": {
-    "markdown-preview-plus": "",
-    "keyboard-localization": "1.4.18"
+    "markdown-preview-plus": ""
   }
 }
