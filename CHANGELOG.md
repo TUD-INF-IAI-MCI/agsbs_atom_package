@@ -1,7 +1,11 @@
-## v0.15.0
+## v0.17.0
 
-- render insert table gui from markdown table
-- more detailed information of a error occurs during the conversion
-- fix various bugs, e.g. tests if a buffer is selected before execute matuc commands
-
+- recommended matuc version is **0.6**
 - page numbers are inserted by matuc
+- it is possible to check to page numbering by matuc (see settings use
+  auto corrections of page numbering)
+- text boxes and frames can be insert by a gui
+    - various colors are supported
+    - this feature is supported in the next version of matuc
+- package checks the installed version of matuc and shows a warning if not the
+  newest matuc version is installed)
