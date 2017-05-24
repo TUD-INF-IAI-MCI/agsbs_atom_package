@@ -1,3 +1,7 @@
+## v.017.1
+
+- fixes bug #226
+
 ## v0.17.0
 
 - recommended matuc version is **0.6**
