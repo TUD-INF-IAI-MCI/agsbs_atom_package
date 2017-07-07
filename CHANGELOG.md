@@ -1,3 +1,13 @@
+## v.017.1
+
+- fixes following bugs:
+    - Unable to load meta data gui, #266
+    - Problems with auto correction of the page numbering, #270
+    - Two horizontal rows are added, #271    
+- Changes version number of installed matuc, now version 0.6.1 is required (see #269)
+- page numbering is corrected by fixpnum inplace, no editor functions required anymore
+- some change in gui and button texts
+
 ## v0.17.0
 
 - recommended matuc version is **0.6**
