@@ -1,4 +1,4 @@
-## v.0117.2
+## v0.17.2
 
 - fixes following bugs:
     - Unable to load meta data gui, #266
