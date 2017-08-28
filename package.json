@@ -3,7 +3,13 @@
   "main": "./lib/agsbs-atom-package",
   "version": "0.17.2",
   "description": "Beta-Version! This package is developed to make the transcription process more effective.",
-  "keywords": [],
+  "keywords": [
+    "Markdown", 
+    "TU Dresden",
+    "Arbeitsgruppen Studium für Blinde und sehbehinderte",
+    "Matuc",
+    "AG SBS"
+  ],
   "activationCommands": {
     "atom-workspace": "agsbs-atom-package:toggle"
   },
