@@ -8,7 +8,9 @@
     "TU Dresden",
     "Arbeitsgruppen Studium für Blinde und sehbehinderte",
     "Matuc",
-    "AG SBS"
+    "AG SBS",
+    "visually impaired",
+    "blind"
   ],
   "activationCommands": {
     "atom-workspace": "agsbs-atom-package:toggle"
