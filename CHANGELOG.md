@@ -1,4 +1,8 @@
-# Changelog
+Changelog
+
+## v0.18.0 
+
+-----
 
 ## v0.17.2
 
