@@ -1,10 +1,10 @@
 {
   "name": "agsbs-atom-package",
   "main": "./lib/agsbs-atom-package",
-  "version": "0.17.2",
+  "version": "0.17.3",
   "description": "Beta-Version! This package is developed to make the transcription process more effective.",
   "keywords": [
-    "Markdown", 
+    "Markdown",
     "TU Dresden",
     "Arbeitsgruppen Studium für Blinde und sehbehinderte",
     "Matuc",
