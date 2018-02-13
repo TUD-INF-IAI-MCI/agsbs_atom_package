@@ -101,3 +101,5 @@ Also the installation path of matuc can be set, if the installation path **is no
 - generation of HTML by using [https://github.com/TUD-INF-IAI-MCI/AGSBS-infrastructure/tree/master/MAGSBS](matuc) (Markdown TU Dresden Converter)
 - GUI for adding Links
 - preview for Markdown
+- insertation of textboxes, the text length must be at least string characters
+  - selection of colors is disabled if annotation is selected
