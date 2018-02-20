@@ -26,7 +26,8 @@
     "iconv": "2.2.1",
     "graceful-fs": "^4.0.0",
     "minimatch": "3.0.2",
-    "os-locale": "2.1.0"
+    "os-locale": "2.1.0",
+    "line-ending-corrector": "1.0.1"
   },
   "package-dependencies": {
     "markdown-preview-plus": ""
