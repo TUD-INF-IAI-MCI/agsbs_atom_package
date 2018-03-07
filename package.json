@@ -30,6 +30,7 @@
     "line-ending-corrector": "1.0.1"
   },
   "package-dependencies": {
-    "markdown-preview-plus": ""
+    "markdown-preview-plus": "",
+    "tree-view": "latest"
   }
 }
