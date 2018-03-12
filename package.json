@@ -27,7 +27,8 @@
     "minimatch": "3.0.2",
     "os-locale": "2.1.0",
     "iconv-lite": "latest",
-    "line-ending-corrector": "1.0.1"
+    "line-ending-corrector": "1.0.1",
+    "shell.js": "2.0.9"
   },
   "package-dependencies": {
     "markdown-preview-plus": "",
