@@ -28,7 +28,7 @@
     "os-locale": "2.1.0",
     "iconv-lite": "latest",
     "line-ending-corrector": "1.0.1",
-    "detect-character-encoding": "0.5.1"
+    "chardet": "0.4.2"
   },
   "package-dependencies": {
     "markdown-preview-plus": "",
