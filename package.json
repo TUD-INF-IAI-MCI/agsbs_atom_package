@@ -1,7 +1,7 @@
 {
   "name": "agsbs-atom-package",
   "main": "./lib/agsbs-atom-package",
-  "version": "0.17.3",
+  "version": "0.18.0",
   "description": "Beta-Version! This package is developed to make the transcription process more effective.",
   "keywords": [
     "Markdown",
