@@ -23,11 +23,15 @@
   "dependencies": {
     "jquery": "^2.1.4",
     "atom-package-dependencies": "latest",
-    "iconv": "2.2.1",
     "graceful-fs": "^4.0.0",
-    "minimatch": "3.0.2"
+    "minimatch": "3.0.2",
+    "os-locale": "2.1.0",
+    "iconv-lite": "latest",
+    "line-ending-corrector": "1.0.1",
+    "chardet": "0.4.2"
   },
   "package-dependencies": {
-    "markdown-preview-plus": ""
+    "markdown-preview-plus": "",
+    "tree-view": "latest"
   }
 }
