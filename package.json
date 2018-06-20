@@ -1,7 +1,7 @@
 {
   "name": "agsbs-atom-package",
   "main": "./lib/agsbs-atom-package",
-  "version": "0.18.0",
+  "version": "0.19.0",
   "description": "This package is developed to make the transcription process more effective of our working group.",
   "keywords": [
     "Markdown",
@@ -20,7 +20,7 @@
   "engines": {
     "atom": ">=1.25.0 <2.0.0"
   },
-  "dependencies": {    
+  "dependencies": {
     "atom-package-dependencies": "latest",
     "graceful-fs": "^4.0.0",
     "minimatch": "3.0.2",
