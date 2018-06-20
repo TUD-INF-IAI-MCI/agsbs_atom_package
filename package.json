@@ -28,6 +28,7 @@
     "os-locale": "2.1.0",
     "iconv-lite": "latest",
     "line-ending-corrector": "1.0.1",
+    "shell.js": "2.0.9",
     "chardet": "0.4.2"
   },
   "package-dependencies": {
