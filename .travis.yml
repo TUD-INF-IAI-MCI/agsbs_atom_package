@@ -11,7 +11,6 @@ env:
     - ATOM_CHANNEL=beta
 
 os:
-  - linux
   - osx
 
 ### Generic setup follows ###
