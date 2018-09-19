@@ -1,6 +1,23 @@
+env:
+  - APM_TEST_PACKAGES="git-plus"
+
+matrix:
+    - ATOM_CHANNEL=stable
+    - ATOM_CHANNEL=beta
+
 language: objective-c
  notifications:
   email:
     on_success: never
     on_failure: change
+
  script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
+
+
+addons:
+  apt:
+    packages:
+    - build-essential
+    - fakeroot
+    - git
+    - libsecret-1-dev
