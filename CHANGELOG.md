@@ -1,8 +1,9 @@
 Changelog
 
-## v0.18.0 
+## v0.21.0
 
------
+- recommended matuc version is **0.7.91**
+- remove conversion by profile from menu
 
 ## v0.17.2
 
