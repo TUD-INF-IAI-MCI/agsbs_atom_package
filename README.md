@@ -5,9 +5,6 @@ AGSBS Atom Package
 Requirements for Installation of this package
 ---------------------------------------------
 
-**The installation of node-gyp is not necessary anymore**
-The node package **iconv** is replaced by iconv-lite.
-
 MAGSBS - MarkDown AG SBS module is required for running and using the AGSBS Atom Package.
 Please download latest version of [MAGSBS - MarkDown AG SBS  module](https://github.com/TUD-INF-IAI-MCI/AGSBS-infrastructure).
 
